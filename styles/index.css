@@ -4,8 +4,7 @@ body {
   background-color: #fff;
   color: #544837;
   font-family: "Poppins", sans-serif;
-  padding-left: 350px;
-  padding-right: 350px;
+  padding: 0px 280px;
 }
 
 /* Navbar */
@@ -22,7 +21,7 @@ nav {
   top: 0px;
 }
 
-nav img {
+.logo {
   width: 185px;
   height: 32px;
 }
@@ -59,6 +58,7 @@ nav ul a:hover {
 }
 
 #btn-signin {
+  cursor: pointer;
   width: 110px;
   margin-left: 30px;
   color: #173a56;
@@ -77,6 +77,7 @@ nav ul a:hover {
 }
 
 #btn-signup {
+  cursor: pointer;
   width: 110px;
   margin-left: 14px;
   border-radius: 4px;
@@ -130,6 +131,7 @@ nav ul a:hover {
 }
 
 #header-links button {
+  cursor: pointer;
   width: 175px;
   height: 53px;
   border-radius: 4px;
@@ -142,6 +144,10 @@ nav ul a:hover {
   color: white;
 }
 
+#header-links button:hover {
+  background-color: #c56d1b;
+}
+
 #header-links a {
   color: #f90;
   text-decoration: underline;
@@ -149,6 +155,10 @@ nav ul a:hover {
   font-style: normal;
   font-weight: 600;
   line-height: normal;
+}
+
+#header-links a:hover {
+  color: #c56d1b;
 }
 
 /* End of Header Section */
@@ -237,6 +247,7 @@ nav ul a:hover {
 }
 
 #feature-content button {
+  cursor: pointer;
   margin: 0 auto;
   display: block;
   width: 175px;
@@ -262,7 +273,9 @@ nav ul a:hover {
 #effortless-validation {
   display: inline-flex;
   justify-content: space-between;
+  align-items: center;
   width: 100%;
+  margin-bottom: 100px;
 }
 
 #effortless-validation h2 {
@@ -284,7 +297,7 @@ nav ul a:hover {
 }
 
 #effortless-validation-content {
-  width: 500px;
+  width: 750px;
 }
 
 .prefix {
@@ -292,7 +305,7 @@ nav ul a:hover {
   font-style: normal;
   font-weight: 500;
   line-height: normal;
-  margin-top: 0px;
+  margin: 0;
 }
 
 .content__text {
@@ -302,4 +315,153 @@ nav ul a:hover {
   line-height: normal;
   margin-top: 0px;
   margin-bottom: 25px;
+}
+
+/* End of Effortless Validation Section */
+
+/* Product Managers Section */
+
+#product-managers {
+  display: inline-flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  gap: 100px;
+  margin-bottom: 100px;
+}
+
+#product-managers-content {
+  width: 750px;
+}
+
+.icon-check {
+  min-width: 35px;
+  min-height: 35px;
+  width: 35px;
+  height: 35px;
+  border-radius: 13px;
+  background: #ff9900;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.checklist {
+  display: inline-flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 30px;
+  width: 100%;
+}
+
+/* End of Product Managers Section */
+
+/* Marketers Section */
+
+#marketers {
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 100px;
+}
+
+#marketers h2 {
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 22px;
+  margin-top: 3px;
+}
+
+#marketers h3 {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 26px; /* 162.5% */
+  margin-bottom: 12px;
+  margin-top: 0px;
+}
+
+#marketers-content {
+  width: 650px;
+}
+
+/* End of Marketers Section */
+
+hr {
+  border: 0;
+  height: 1px;
+  background: #bcd0e57f;
+  margin-bottom: 100px;
+}
+
+/* Footer Section */
+
+#footer-content {
+  display: inline-flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  margin-left: 170px;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+#footer-content ul {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 35px; /* 218.75% */
+  list-style: none;
+}
+
+#footer-content ul a {
+  color: #544837;
+  text-decoration: none;
+}
+
+#footer-content ul a:hover {
+  color: #f2a154;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+form input {
+  width: 325px;
+  height: 48px;
+  border-radius: 4px;
+  border: 1px solid #bcd0e5;
+  padding: 0px 20px;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  border-radius: 4px;
+  border: 1px solid #bcd0e5;
+}
+
+form button {
+  cursor: pointer;
+  width: 131px;
+  height: 39px;
+  border-radius: 4px;
+  border-style: none;
+  background: #f90;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  color: white;
+}
+
+form button:hover {
+    background-color: #c56d1b;
 }
